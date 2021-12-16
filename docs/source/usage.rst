@@ -1,34 +1,25 @@
-Usage
-=====
+Analytical Usage
+================
 
 .. _installation:
 
-Installation
-------------
+Account Request
+---------------
 
-To use Lumache, first install it using pip:
+To request an account contact: dep@spc.int
 
-.. code-block:: console
+Exploring Data Catalog in Jupyter Environment
+---------------------------------------------
 
-   (.venv) $ pip install lumache
+Using Planetary Computer (PC) API and PyStac-Cient for Query and Matplotlb for Rendering
 
-Creating recipes
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Searching for Available Spatio-Temporal Data using STAC
+-------------------------------------------------------
 
-.. autofunction:: lumache.get_random_ingredients
+Listing Sensor and Band Infomation for Individual DataSets
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 

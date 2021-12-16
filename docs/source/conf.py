@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Digital Earth Pacific'
+copyright = '2021, Pacific Community (SPC)'
+author = 'Sachindra Singh'
 
 release = '0.1'
 version = '0.1.0'
